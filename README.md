@@ -5,4 +5,8 @@ The Temperature Monitoring System is a digital project designed to measure and m
 
 ## Components-used
 #Temperature Sensor (e.g., LM35, LM75, or thermistor)
+
+
+
+
 #Counter IC (e.g., 74LS90 or 74LS192).
