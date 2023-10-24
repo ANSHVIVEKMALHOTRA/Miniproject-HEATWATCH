@@ -7,3 +7,13 @@ The Temperature Monitoring System is a digital project designed to measure and m
 #Temperature Sensor (e.g., LM35, LM75, or thermistor)
 
 #Counter IC (e.g., 74LS90 or 74LS192).
+
+#Flip-Flops (e.g., 74LS74).
+
+#Logic Gates (e.g., 74LS00, 74LS32).
+
+#Display (e.g., 7-segment LED display).
+
+#Power supply components (voltage regulator, capacitors, etc.).
+
+#Breadboard or PCB for circuit construction.
