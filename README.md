@@ -13,6 +13,8 @@ Our unique contribution is Hypothetically we can maintain optimal temperature an
 
 #Verilog - Verilog is a Hardware Description Language (HDL) for verification through simulation, for timing analysis, for test analysis (testability analysis and fault grading) and for logic synthesis.
 
+## Unique Contribution
+Our unique contribution to the project is that we are able to calculate the average temperature just by using basics of combinational circuits without even using higher memory elements.
 
 ## Components-used
 #Temperature Sensor (e.g., LM35, LM75, or thermistor)
