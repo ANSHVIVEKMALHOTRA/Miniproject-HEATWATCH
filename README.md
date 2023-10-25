@@ -8,13 +8,16 @@ The Temperature Monitoring System is a digital project designed to measure and m
 
 Our unique contribution is Hypothetically we can maintain optimal temperature and share data using bluetooth / WiFi.
 
+
+## Unique Contribution
+Our unique contribution to the project is that we are able to calculate the average temperature just by using basics of combinational circuits without even using higher memory elements.
+
+
 ## Languages and Simulator 
 #LOGISM - Logism worked as simulator software that can be used for designing and testing logic circuits through a graphical user interface.
 
 #Verilog - Verilog is a Hardware Description Language (HDL) for verification through simulation, for timing analysis, for test analysis (testability analysis and fault grading) and for logic synthesis.
 
-## Unique Contribution
-Our unique contribution to the project is that we are able to calculate the average temperature just by using basics of combinational circuits without even using higher memory elements.
 
 ## Components-used
 #Temperature Sensor (e.g., LM35, LM75, or thermistor)
