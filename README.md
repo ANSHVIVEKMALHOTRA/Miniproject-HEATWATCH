@@ -53,6 +53,7 @@ Our unique contribution to the project is that we are able to calculate the aver
 
 #Breadboard or PCB for circuit construction.
 </details>
+
 ## Our Learning
 <details>
 This Project gives a good learning about Designing of Digital and Signal systems which opens up our knowledge in various types of IC (Integrated Circuit) chips, Logic gates, Sequential and Combinational circuits, Digital Integrated Circuits, Hardware modeling using VHDL,Logisim Simulation, Soldering, etc.
