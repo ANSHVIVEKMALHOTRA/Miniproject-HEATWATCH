@@ -40,10 +40,13 @@ Our unique contribution to the project is that we are able to calculate the aver
 This Project gives a good learning about Designing of Digital and Signal systems which opens up our knowledge in various types of IC (Integrated Circuit) chips, Logic gates, Sequential and Combinational circuits, Digital Integrated Circuits, Hardware modeling using VHDL,Logisim Simulation, Soldering, etc.
 
 
-## Team
+<details>
+  ## Team
 
 221CS209 - ANSH VIVEK MALHOTRA - anshvivekmalhotra.221cs209@nitk.edu.in
 
 221CS227 - KAKARLA NAVEEN JANAKI RAM - naveenkakarla.221cs227@nitk.edu.in
 
 221CS242 - ROHIT SUNIL - rohitsunil.221cs242@nitk.edu.in
+</details>
+
