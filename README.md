@@ -51,8 +51,22 @@ Components-used
 #Breadboard or PCB for circuit construction.
 </details>
 
-## Our Learning
+## Logism working
 
-<details>
-This Project gives a good learning about Designing of Digital and Signal systems which opens up our knowledge in various types of IC (Integrated Circuit) chips, Logic gates, Sequential and Combinational circuits, Digital Integrated Circuits, Hardware modeling using VHDL,Logisim Simulation, Soldering, etc.
-</details>
+
+                                             This is our Logism Simulation design. 
+![WhatsApp Image 2023-10-25 at 21 01 03_fbb7a637](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/d7bb532c-6983-4796-8085-95bc584574c9)
+
+
+
+    **Iteration 1**-We can see that the input of the numbers throught the Temperature sensors is 10 which is 00000001010 in binnary, 
+    so the current temperature shows the output as 00000001010 and the average output also shows 00000001010 because there is only 
+    one single iteration.
+  ![WhatsApp Image 2023-10-25 at 21 01 08_aaffcf53](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/17d032a9-65bd-42c2-a1a0-d7fd2493f622)
+
+
+
+    **Iteration 2**-We can see that the input of the numbers have changed to 20 in the second iteration which is 00000010100 in binnary,
+    so the output shows to be 00000010100 in the current temperature but 00000001111 as average temperature which is 15.
+![WhatsApp Image 2023-10-25 at 21 01 13_cee11c6d](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/f6b5f254-2bab-4a4a-abd3-badcb90b2bc8)
+
