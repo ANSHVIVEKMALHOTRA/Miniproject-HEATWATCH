@@ -71,42 +71,86 @@ Components-used
 ![WhatsApp Image 2023-10-25 at 21 01 13_cee11c6d](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/f6b5f254-2bab-4a4a-abd3-badcb90b2bc8)
 </details>
 
-## VERILOG
+## Verilog
+Main
 <details>
 
-<b>verilog .v file</b>
-  module MovingAverage(
-    input wire clk,
-    input wire reset,
-    input wire [10:0] data_input,
-    output wire [10:0] result_output
-);
-
-reg [10:0] sum;
-reg [10:0] prev_sum;
-reg [3:0] count;
-reg [31:0] delay_counter;
-
-always @(posedge clk or posedge reset) begin
-    if (reset) begin
-        sum <= 11'b0;
-        prev_sum <= 11'b0;
-        count <= 4'b0000;
-        delay_counter <= 32'b0;
-    end else begin
-       
-        if (delay_counter == 32'h77359400) begin
+    module MovingAverage(
+        input wire clk,
+        input wire reset,
+        input wire [10:0] data_input,
+        output wire [10:0] result_output
+    );
+    
+    reg [10:0] sum;
+    reg [10:0] prev_sum;
+    reg [3:0] count;
+    reg [31:0] delay_counter;
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            sum <= 11'b0;
+            prev_sum <= 11'b0;
+            count <= 4'b0000;
             delay_counter <= 32'b0;
-            count <= count + 1;
-            prev_sum <= sum; 
-            sum <= data_input + prev_sum * (count - 1);
         end else begin
-            delay_counter <= delay_counter + 1;
+           
+            if (delay_counter == 32'h77359400) begin
+                delay_counter <= 32'b0;
+                count <= count + 1;
+                prev_sum <= sum; 
+                sum <= data_input + prev_sum * (count - 1);
+            end else begin
+                delay_counter <= delay_counter + 1;
+            end
         end
     end
-end
+    
+    assign result_output = (data_input + prev_sum * (count - 1)) / count;
+    
+    endmodule
 
-assign result_output = (data_input + prev_sum * (count - 1)) / count;
-
-endmodule
 </details>
+Test bench 
+<details>
+  
+        module testbench;
+      reg clk;
+    reg reset;
+    reg [10:0] data_input;
+    wire [10:0] result_output;
+  
+    MovingAverage uut (
+      .clk(clk),
+      .reset(reset),
+      .data_input(data_input),
+      .result_output(result_output)
+    );
+
+
+    always begin
+      #5 clk = ~clk; 
+    end
+  
+    initial begin
+      clk = 0;
+      reset = 0;
+      data_input = 11'b00000000000; 
+
+    reset = 1;
+    #30 reset = 0;
+
+    
+    #30 data_input = 11'b00000000001; 
+    #30 data_input = 11'b00000000010; 
+    #30 data_input = 11'b00000000011;
+    $finish;
+    end
+    initial begin
+      $monitor("Time=%d: Data Input=%b, Result Output=%b", $time, data_input, result_output);
+    end
+     endmodule
+
+</details>
+
+
+
