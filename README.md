@@ -52,7 +52,7 @@ Components-used
 </details>
 
 ## Logism working
-
+<details>
 
                                              This is our Logism Simulation design. 
 ![WhatsApp Image 2023-10-25 at 21 01 03_fbb7a637](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/d7bb532c-6983-4796-8085-95bc584574c9)
@@ -69,4 +69,4 @@ Components-used
     **Iteration 2**-We can see that the input of the numbers have changed to 20 in the second iteration which is 00000010100 in binnary,
     so the output shows to be 00000010100 in the current temperature but 00000001111 as average temperature which is 15.
 ![WhatsApp Image 2023-10-25 at 21 01 13_cee11c6d](https://github.com/ANSHVIVEKMALHOTRA/Miniproject-HEATWATCH/assets/119870034/f6b5f254-2bab-4a4a-abd3-badcb90b2bc8)
-
+</details>
