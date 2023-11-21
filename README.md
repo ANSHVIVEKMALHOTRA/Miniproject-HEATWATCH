@@ -23,11 +23,16 @@ display, and power supply components on a breadboard or PCB. It performs various
 it records and monitors temperature, it gives a security alarm when Temperature reaches
 extremes. It displays the Temperature in both Celcius and Fahrenheit. It also displays the average
 Temperature over 24hrs.
-Our motivation is to provide safety measures and safe working conditions for employes. After some
-advancements we can provide this setup for maintaining optimal Temperature in Industries to make
-Industrial processes more effecient.
-Our unique contribution is Hypothetically we can implement Alarms, maintain optimal temperature
-and share data using bluetooth/WiFi
+  
+```
+       Our motivation is to provide safety measures and safe working conditions for employes. After some advancements we can provide this setup for maintaining optimal Temperature in Industries to make   Industrial processes more effecient.
+
+
+```
+       Our unique contribution is Hypothetically we can implement Alarms, maintain optimal temperatureand share data using bluetooth/WiFi
+
+
+
 </details>
 
 ## Working
