@@ -13,12 +13,11 @@
 ## Abstract 
 <details>
 The Temperature Monitoring System is a digital project designed to measure and monitor
-temperature levels in real-time. This system uses digital sensors, microcontrollers, and
-display units to collect, process, and display temperature data. It can be used in labs after
-some advancedments. It oĊers a practical application for various industries, including
+the moving average of temperature levels in real-time. This system uses digital sensors, display units to collect, process, and display temperature data. It can be used in labs after
+some advancedments. It offers a practical application for various industries, including
 environmental monitoring, healthcare, and industrial control. The project involves the
 integration of a temperature sensor, counter IC, flip-flops, logic gates, a 7-segment LED
-display, and power supply components on a breadboard or PCB. It performs various tasks like
+display, and power supply components on a breadboard or PCB. It performs various tasks:
 it records and monitors temperature, it gives a security alarm when Temperature reaches
 extremes. It displays the Temperature in both Celcius and Fahrenheit. It also displays the average
 Temperature over 24hrs.
@@ -120,7 +119,7 @@ Main
             delay_counter <= 32'b0;
         end else begin
            
-            if (delay_counter == 32'h77359400) begin
+            if (delay_counter == 30) begin
                 delay_counter <= 32'b0;
                 count <= count + 1;
                 prev_sum <= sum; 
